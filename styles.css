@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fff;
+}
+
+header{
+  
+}
+nav {
+    background-color: black;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+nav .left-nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+nav .left-nav .icon-image  img{
+    width: 110px;
+    
+}
+
+/* nav .left-nav .icon-image:hover{
+    border:1px solid #fff;
+    border-radius: 3px;
+    width: 130px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+} */
+
+nav .left-nav .location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav .left-nav .place{
+    display: flex;
+    align-items: center;
+}
+small{
+    font-weight: lighter;
+    color: gainsboro;
+
+}
+nav .left-nav svg{
+    width: 20px;
+}
+nav .left-nav .location .place h4{
+    font-size: 13px;
+}
+/* nav .left-nav .location:hover{
+    border:1px solid #fff;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+} */
+nav .middle-nav{
+    display: flex;
+    align-items: center;
+}
+nav .middle-nav .btn{
+    background-color: ghostwhite;
+  
+}
+nav .middle-nav .btn button{
+    padding: 14px 20px;
+    border: none;
+   
+    /* border-top-left-radius: 5px;
+    border-bottom-left-radius:5px; */
+}
+
+nav .middle-nav .input-field input{
+    padding: 14px 25px;
+     width: 470px;
+     border: none;
+}
+nav .middle-nav .search{
+    background-color: orange;
+    padding: 10px 15px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius:5px;
+}
+nav .middle-nav .search svg{
+    color:#000;
+    font-size: 20px;
+    font-weight: bolder; 
+}
+nav .right-nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+select{
+    border: none;
+    background-color: transparent;
+    color: #6d6a6a;
+    font-size: 8px;
+}
+nav .right-nav .details{
+    display: flex;
+    flex-direction: column;
+
+}
+
+nav .right-nav .details .account{
+    display: flex;
+}
+nav .right-nav .details .account p{
+    font-size: 14px;
+}
+
+nav .right-nav .orders p{
+    font-size: 14px;
+}
+nav .right-nav .country .image{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+nav .right-nav .country .image img{
+    width: 23px;
+}
+nav .right-nav .country .image label{
+    font-size: 14px;
+}
+nav .right-nav .details{
+    display: flex;
+    flex-direction: column;
+    
+}
+nav .right-nav .details small{
+    font-family: 10px;
+    font-weight: lighter;
+}
+nav .right-nav .details .account{
+    display: flex;
+    
+    gap: 10px;
+    
+}
+nav .right-nav .details .account div{
+    display: flex;
+    
+    gap: 2px;
+    
+}
+nav .right-nav .details .account div p{
+    font-size: 14px;
+}
+
+nav .right-nav .orders{
+    display: flex;
+    flex-direction: column;
+}
+nav .right-nav .orders  div{
+    display: flex;
+    
+    gap: 2px;
+}
+nav .right-nav .carts{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    gap: 8px;
+    
+}
+nav .right-nav .carts .cart-img img{
+    width: 40px;
+}
+nav .right-nav .carts .cart-img p{
+    position: relative;
+    left: 20px;
+    top: 10px;
+    font-size: 14px;
+    color: orange;
+    font-weight: bolder;
+}
+nav .right-nav .carts h4{
+    font-size: 14px;
+}
+/* nav .right-nav .carts:hover{
+    border:1px solid #fff;
+    border-radius: 3px;
+    width: 100px;
+    height: 50px;
+    
+    align-items: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu{
+    padding: 8px;
+    background-color: rgba(37, 37, 41, 0.651);
+}
+svg{
+    width: 25px;
+}
