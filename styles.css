@@ -7,7 +7,7 @@
 body{
     background-color: #fff;
 }
-
+/* header section */
 header{
   
 }
@@ -21,6 +21,7 @@ nav {
     display: flex;
     align-items: center;
     cursor: pointer;
+    padding: 8px;
 }
 nav .left-nav{
     display: flex;
@@ -41,6 +42,7 @@ nav .left-nav .icon-image  img{
     height: 50px;
     display: flex;
     align-items: center;
+    
 
 } */
 
@@ -209,33 +211,34 @@ nav .right-nav .carts h4{
     align-items: center;
 } */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* navbar ends */
+/* menu */
 .menu{
     padding: 8px;
     background-color: rgba(37, 37, 41, 0.651);
+    display: flex;
+    align-items: center;
+    gap:12px;
+    padding: 8px;
+}
+.menu .image-svg{
+    display: flex;
+    align-items: center;
 }
 svg{
     width: 25px;
 }
+.menu div{
+    color: #fff;
+    font-size: 14px;
+}
+/* menu */
+/* hero-section */
+.hero-section{
+   width: 100%;
+}
+.hero-section img{
+   height: 400px;
+   width: 100%;
+}
+
