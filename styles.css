@@ -370,3 +370,7 @@ main .section-2 .best-sales-toys{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 18px;
 }
+/*footer*/
+footer{
+    margin-top: 40px;
+}
