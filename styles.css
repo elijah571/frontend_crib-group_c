@@ -389,7 +389,7 @@ footer .container{
     margin: 0;
     border-radius: 5px;
     margin-bottom: 40px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     padding-top: 30px;
 
 }
@@ -406,6 +406,7 @@ footer .container .box button{
     font-size: small;
     border: none;
     background-color: transparent;
+    font-size: 14px;
     cursor: pointer;
 }
 footer .container .box .sign-in{
@@ -413,11 +414,59 @@ footer .container .box .sign-in{
     padding:10px 100px;
     border-radius: 5px;
     border: 0.5px solid rgb(168, 52, 52);
-    font-size: 15px;
+    font-size: 14px;
 }
 footer .container .box button span{
     text-decoration: none;
     margin-left: 3px;
     color:lightskyblue;
 
+
+}
+footer  .back-to-top{
+    background-color: rgb(64, 78, 90);
+    padding: 20px;
+    transition: all 3000ms ease;
+}
+footer  .back-to-top p{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+footer  .back-to-top:hover{
+    background-color: rgb(121, 137, 151);
+}
+footer  .footer-container{
+    background-color: #262e3b;
+   padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+footer  .footer-container .card{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+}
+footer  .footer-container .card h2{
+    font-size: 15px;
+    color:#fff;
+    margin-top:10px ;
+}
+footer  .footer-container .card ul{
+    list-style: none;
+   color:#fff;
+   /* margin-top: 10px 0; */
+
+}
+footer  .footer-container .card ul li{
+    margin: 15px 0;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 3000ms ease;
+}
+footer  .footer-container .card ul li:hover{
+    text-decoration: underline;
 }
