@@ -362,13 +362,11 @@ main .section-2{
     display: flex;
     flex-direction: column;
     padding: 5px;
+    margin-bottom: 50px;
 }
 main .section-2 .best-sales-toys{
    width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 18px;
-    
-   
-    
 }
