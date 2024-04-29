@@ -550,3 +550,25 @@ footer .footer-amazone .Conditions p{
     font-size: 10px;
     margin:0 auto;
 }
+
+/* responsive design with media query */
+/* For laptops and desktops */
+@media only screen and (min-width: 1024px) {
+    main section {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* For tablets */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+    main section {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+    main section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
