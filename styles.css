@@ -169,7 +169,7 @@ nav .right-nav .details .account div{
     
 }
 nav .right-nav .details .account div p{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 nav .right-nav .orders{
@@ -469,4 +469,84 @@ footer  .footer-container .card ul li{
 }
 footer  .footer-container .card ul li:hover{
     text-decoration: underline;
+}
+footer .amazone-footer{
+    background-color: #262e3b;
+    border-top: 1px solid rgb(174, 184, 184);
+    padding:20px 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+footer .amazone-footer .logo img{
+    width: 80px;
+}
+footer .amazone-footer .divs{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+footer .amazone-footer .divs div{
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    padding:7px 20px;
+    gap: 3px;
+    border-radius: 5px;
+}
+footer .amazone-footer .divs img{
+    width: 15px;
+    /* align-items: center; */
+}
+footer .amazone-footer .divs p, span{
+    color: #fff;
+    font-size: 13px;
+}
+footer .amazone-footer .divs span{
+    font-weight: bolder;
+}
+footer .footer-amazone{
+    background-color:#1d1717;
+    width: 100%;
+    border: none;
+    margin: 0;
+    padding: 20px  140px;
+}
+
+footer .footer-amazone .amazone-advert{
+    border: none;
+}
+footer .footer-amazone .amazone-advert .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    border: none;
+   
+}
+footer .footer-amazone .amazone-advert .container div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+     color: #fff;
+}
+footer .footer-amazone .amazone-advert .container div h3{
+    font-size: 12px;
+}
+footer .footer-amazone .amazone-advert .container div p{
+    font-size: 11px;
+}
+footer .footer-amazone .amazone-advert .container div:hover{
+    text-decoration: underline;
+}
+footer .footer-amazone .Conditions{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+}
+footer .footer-amazone .Conditions p{
+    color: #fff;
+    font-size: 10px;
+    margin:0 auto;
 }
